@@ -98,6 +98,8 @@ footer{
     }
     footer{
         flex-direction: column;
+        max-height: 25rem;
+
     }
     .wave{
         display: none;
