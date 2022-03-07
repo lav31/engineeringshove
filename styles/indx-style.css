@@ -92,6 +92,16 @@ footer{
     width: 28rem;
 }
 
+@media(max-width:850px){
+    .wave{
+        display: none;
+    }
+    
+    .tpsctn{
+        flex-direction: column;
+    }
+}
+
 .sctn2{
     /* margin-top: 5rem; */
     padding: 7rem 1.5rem 1rem 1.5rem;
@@ -132,6 +142,12 @@ footer{
 .stp{
     display: flex;
     justify-content: space-between;
+}
+
+@media(max-width:850px){
+    .stp{
+        flex-direction: column;
+    }
 }
 
 .steps{
