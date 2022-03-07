@@ -93,6 +93,12 @@ footer{
 }
 
 @media(max-width:850px){
+    header{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
     .wave{
         display: none;
     }
