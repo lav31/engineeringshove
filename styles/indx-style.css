@@ -121,6 +121,12 @@ footer{
     justify-content: space-between;
 }
 
+@media(max-width:850px){
+    .cnt{
+        flex-direction: column;
+    }
+}
+
 .cnt div img{
     height: 24rem;
     width: 28rem;
