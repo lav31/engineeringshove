@@ -87,6 +87,13 @@ footer{
     width: 28rem;
 }
 
+@media(max-width:850px){
+
+    .tpsctn{
+        flex-direction: column;
+    }
+}
+
 .sctn2{
     padding: 4.5rem 1.5rem 1rem 1.5rem;
     /* min-height: 100vh; */
