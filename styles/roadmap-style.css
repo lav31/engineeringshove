@@ -88,6 +88,14 @@ footer{
 }
 
 @media(max-width:850px){
+    header{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        max-height: 25rem;
+
+    }
 
     .tpsctn{
         flex-direction: column;
