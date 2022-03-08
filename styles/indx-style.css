@@ -26,7 +26,7 @@ footer{
     min-height: 100vh;
     background: rgb(2,0,36);
     background: linear-gradient(77deg, rgba(2,0,36,1) 0%, rgba(11,118,118,1) 0%, rgba(18,214,185,1) 0%, rgba(15,172,156,1) 0%, rgba(20,250,210,1) 44%, rgba(14,238,224,1) 100%);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .logo{
@@ -36,6 +36,21 @@ footer{
 .logo img{
     height: 4rem;
     width: 4rem;
+}
+
+
+.tgl-btn{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: none;
+}
+
+@media(max-width:700px){
+    .tgl-btn{
+        display: inline-block;
+    }
 }
 
 .links ul{
@@ -64,6 +79,28 @@ footer{
 .wave{
     position: relative;
     top: -13rem;
+}
+
+@media(max-width:700px){
+    .tgl-btn{
+        display: inline-block;
+    }
+    .links{
+        display: none;
+        width: 100%;
+    }
+    .links ul{
+        flex-direction: column;
+    }
+
+    .links li{
+        text-align: center;
+        margin: .75rem 0;
+    }
+
+    .links.active{
+        display: flex;
+    }
 }
 
 
@@ -108,6 +145,12 @@ footer{
     .tpsctn{
         flex-direction: column;
     }
+
+    .hd{
+        left: 2.5rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
 }
 
 .sctn2{
@@ -129,11 +172,6 @@ footer{
     justify-content: space-between;
 }
 
-@media(max-width:850px){
-    .cnt{
-        flex-direction: column;
-    }
-}
 
 .cnt div img{
     height: 24rem;
@@ -152,6 +190,17 @@ footer{
 .para p span{
     color: #0fb7a3;
 }
+
+@media(max-width:850px){
+    .cnt{
+        flex-direction: column;
+    }
+    .cnt div img{
+        height: 20rem;
+        width: 25rem;
+    }
+}
+
 
 .stp{
     display: flex;
