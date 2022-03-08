@@ -21,6 +21,12 @@
                     <img src="/default-monochrome-white.svg" alt="">
                 </a>
             </div>
+            <a href="#" class="tgl-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="20" height="20"
+viewBox="0 0 171 171"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,171.99562v-171.99562h171.99562v171.99562z" fill="none"></path><g fill="#ffffff"><path d="M17.1,27.36c-2.46675,-0.03489 -4.7612,1.26113 -6.00475,3.39177c-1.24356,2.13064 -1.24356,4.76582 0,6.89646c1.24356,2.13064 3.538,3.42666 6.00475,3.39177h136.8c2.46675,0.03489 4.7612,-1.26113 6.00475,-3.39177c1.24356,-2.13064 1.24356,-4.76582 0,-6.89646c-1.24356,-2.13064 -3.538,-3.42666 -6.00475,-3.39177zM17.1,78.66c-2.46675,-0.03489 -4.7612,1.26113 -6.00475,3.39177c-1.24356,2.13064 -1.24356,4.76582 0,6.89646c1.24356,2.13064 3.538,3.42666 6.00475,3.39177h136.8c2.46675,0.03489 4.7612,-1.26113 6.00475,-3.39177c1.24356,-2.13064 1.24356,-4.76582 0,-6.89646c-1.24356,-2.13064 -3.538,-3.42666 -6.00475,-3.39177zM17.1,129.96c-2.46675,-0.03489 -4.7612,1.26113 -6.00475,3.39177c-1.24356,2.13064 -1.24356,4.76582 0,6.89646c1.24356,2.13064 3.538,3.42666 6.00475,3.39177h136.8c2.46675,0.03489 4.7612,-1.26113 6.00475,-3.39177c1.24356,-2.13064 1.24356,-4.76582 0,-6.89646c-1.24356,-2.13064 -3.538,-3.42666 -6.00475,-3.39177z"></path></g></g></svg>
+            </a>
             <div class="links">
                 <ul>
                     <li>
@@ -56,7 +62,7 @@
     <section class="sctn2">
         <div class="hnd">
             <h1>
-                Ever Suffer to Find The Path & Resources to Learn ?
+                Ever Sufer to Find The Path & Resources to Learn ?
             </h1>
         </div>
         <div class="cnt">
@@ -118,5 +124,20 @@
             </ul>
         </div>
     </footer>
+
+
+
+
+
+    <script>
+        const toggleButton = document.getElementsByClassName('tgl-btn')[0]
+        const navbarLinks = document.getElementsByClassName('links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+
+
 </body>
 </html>
